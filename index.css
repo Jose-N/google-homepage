@@ -4,24 +4,37 @@ ul{
   padding: 0;
 }
 li{
+  font-family: sans-serif;
   display: inline;
+  padding: 5px;
+  margin: 0;
 }
 #header{
   float: right;
+  margin-bottom: 170px;
 }
 .google-logo{
+  clear: both;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+#search-bar{
   display: table;
   margin-left: auto;
   margin-right: auto;
 }
 .search-buttons{
   display: table;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
 }
 #footer-left{
+  margin-top: 470px;
   float: left;
 }
 #footer-right{
+  margin-top: 470px;
   float: right;
 }
